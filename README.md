@@ -17,3 +17,14 @@ Add it to your .eslintrc:
   "extends": "hexa1"
 }
 ```
+
+## Syntax support
+
+This config does not include `babel-eslint`. ESLint itself supports all ES6 features, as well as React/JSX syntax. However, if you're using ES7+ features (rest spread, decorators, etc) you should include `babel-eslint` in your project's eslint config and configure babel accordingly:
+
+```json
+{
+  "parser": "babel-eslint",
+  "extends": "hexa1"
+}
+```

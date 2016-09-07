@@ -17,6 +17,9 @@ module.exports = {
     // http://eslint.org/docs/rules/max-len
     'max-len': [0],
 
+    // http://eslint.org/docs/rules/newline-per-chained-call
+    'newline-per-chained-call': [0],
+
     // http://eslint.org/docs/rules/no-dupe-keys
     'no-dupe-keys': [2],
 
