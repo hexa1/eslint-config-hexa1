@@ -39,7 +39,7 @@ module.exports = {
     }],
 
     // http://eslint.org/docs/rules/no-use-before-define
-    'no-use-before-define': [2, 'nofunc'],
+    'no-use-before-define': [2, { "functions": false, "classes": false ],
 
     // http://eslint.org/docs/rules/no-useless-constructor
     'no-useless-constructor': [0],

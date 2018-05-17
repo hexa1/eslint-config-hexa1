@@ -19,7 +19,7 @@ module.exports = {
     'react/no-multi-comp': [0],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md
-    'react/no-string-refs': [0],
+    'react/no-string-refs': [2],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md
     'react/no-unused-prop-types': [2, { skipShapeProps: true }],
