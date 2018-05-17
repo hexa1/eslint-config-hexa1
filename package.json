@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hexa1",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "ESLint base config for all Hexa1 JS projects",
   "main": "index.js",
   "repository": {
